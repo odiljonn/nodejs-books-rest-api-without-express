@@ -1,0 +1,24 @@
+{
+  "name": "core_node_js",
+  "version": "1.0.0",
+  "description": "node.js_ api",
+  "keywords": [
+    "node",
+    "api",
+    "rest"
+  ],
+  "license": "ISC",
+  "author": "Odiljon Norboev",
+  "type": "commonjs",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js",
+    "dev": "nodemon index.js"
+  },
+  "devDependencies": {
+    "nodemon": "^3.1.14"
+  },
+  "dependencies": {
+    "uuid": "^14.0.2"
+  }
+}
